@@ -1,0 +1,16 @@
+{
+    "name": "example-docsify-live-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "doc:init": "docsify init ./docs",
+        "doc": "docsify serve docs --open --port 8183"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "docsify-cli": "^4.4.4"
+    }
+}
