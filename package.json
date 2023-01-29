@@ -1,7 +1,7 @@
 {
     "name": "docsify-live-demo",
     "version": "0.1.0",
-    "description": "A docsify plugin to showcase frontend code und let client interact with the code.",
+    "description": "A docsify plugin to showcase frontend code and let client interact with the code.",
     "main": "index.js",
     "directories": {
         "example": "example"
