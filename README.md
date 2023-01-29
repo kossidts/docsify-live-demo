@@ -2,7 +2,9 @@
 
 [![License][license-image]][license-url] ![GitHub top language][language-image] ![Size][size-image] ![Last Commit][commit-image]
 
-A docsify plugin to showcase frontend code and let client interact with the code...
+Showcase your work with ease right within your docsify documentation.
+
+This is a docsify plugin to showcase frontend code and let clients/readers interact with the code...
 
 ## Usage
 
