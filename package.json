@@ -10,9 +10,14 @@
         "dev": "webpack",
         "build": "webpack"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "keywords": [
+        "dicsify",
+        "live",
+        "demo",
+        "showcase"
+    ],
+    "author": "Kossi D. T. S.",
+    "license": "MIT",
     "type": "module",
     "devDependencies": {
         "css-loader": "^6.7.3",
