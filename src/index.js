@@ -101,9 +101,11 @@ function doneEach(assets) {
     const $liveDemo = document.querySelectorAll(".live-demo");
     $liveDemo.forEach($el => {
         let dataAttr = $el.dataset;
-        if (dataAttr.height) {
-            $el.style.height = dataAttr.height + "px";
+        let height = 500;
+        if (dataAttr.height && !isNaN(parseInt(dataAttr.height, 10))) {
+            height = parseInt(dataAttr.height, 10);
         }
+        $el.style.height = height + "px";
         let $editor = $el.querySelector("textarea");
         let $preview = $el.querySelector(".preview");
         let mirrorEditor = CodeMirror.fromTextArea($editor, {
