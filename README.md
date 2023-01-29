@@ -6,6 +6,10 @@ Showcase your work with ease right within your docsify documentation.
 
 This is a docsify plugin to showcase frontend code and let clients/readers interact with the code...
 
+### Screenshot
+
+![Screenshot of Live Demo](screenshot.png)
+
 ## Usage
 
 To integrate this plugin into your docsify documentation, first let assume that your documentation folder `docs` has the following structure:
