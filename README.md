@@ -1,10 +1,11 @@
-# Docsify Live Demo
+# Docsify Live Demo Plugin
 
 [![License][license-image]][license-url] ![GitHub top language][language-image] ![Size][size-image] ![Last Commit][commit-image]
 
 Showcase your work with ease right within your docsify documentation.
 
 This is a docsify plugin to showcase frontend code and let clients/readers interact with the code...
+The plugin uses [CodeMirror](https://codemirror.net/) to provide a nice editing experience.
 
 ### Screenshot
 
