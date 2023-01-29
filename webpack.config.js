@@ -8,6 +8,7 @@ import MiniCssExtractPlugin from "mini-css-extract-plugin";
 // const currentTask = process.env.npm_lifecycle_event;
 const distPath = path.join(process.cwd(), "dist");
 const exampleAssetsPath = path.join(process.cwd(), "example", "docs", "assets");
+const currentTask = process.env.npm_lifecycle_event;
 
 class DeployPlugin {
     constructor(options) {
@@ -55,7 +56,7 @@ const config = {
         ],
     },
     plugins: [new MiniCssExtractPlugin({ filename: "[name].css" }), new DeployPlugin()],
-    watch: true,
+    watch: currentTask !== "build",
 };
 
 export default config;
